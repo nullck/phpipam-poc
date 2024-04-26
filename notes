@@ -1,0 +1,18 @@
+Credentials:
+admin
+secret123
+
+## Starting
+docker-compose up
+
+## Disabling API SSL Requirement
+Go into:
+> Administration
+>> API
+>>> Create a new api client, use the name "apiclient" and configure with this settings:
+
+App permissions: Read/Write/Admin
+App security: User token
+
+## Terraform Provider
+https://registry.terraform.io/providers/lord-kyron/phpipam/latest
