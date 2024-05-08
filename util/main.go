@@ -12,8 +12,8 @@ func main() {
 	pass := "secret123"
 	token := auth(user, pass)
 	mainSubNetId := getSubnetId(token, "10.0.0.0", "8")
-	fmt.Println(requestNewSubnet(token, mainSubNetId, "17"))
-	fmt.Println(createNewSubnet(token, mainSubNetId, "17"))
+	fmt.Println(requestNewSubnet(token, mainSubNetId, "21"))
+	fmt.Println(createNewSubnet(token, mainSubNetId, "21"))
 }
 
 func auth(user, pass string) string {
